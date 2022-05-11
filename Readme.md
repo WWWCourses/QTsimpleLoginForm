@@ -1,17 +1,21 @@
 # QT Simple Login Form project
 
-## About:
-	This is a demo project for PyQT and DB
+## About
 
-## How to use:
-	`git clone <project>`
+This is a demo project for PyQT and DB
 
-	create and activate virtev for the project
+## How to use
 
-	# install project dependencies:
+1. ### Clone the project:
+	`git clone https://github.com/WWWCourses/QTsimpleLoginForm`
+
+1. ### create and activate virtev for the project
+	Reading: [creating-a-virtual-environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment)
+
+1. ### install project dependencies:
 	`pip install -r requirements.txt`
 
-	# set your MySQL data in config.ini
+1. ### set your MySQL data in config.ini
 
-	# start project
-	python app.py
+1. ### start project
+	`python app.py`
