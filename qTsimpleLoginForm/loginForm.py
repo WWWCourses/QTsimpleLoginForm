@@ -18,7 +18,7 @@ else:
 class LoginForm(Ui_Form, qtw.QWidget):
 	def __init__(self , *args, **kwargs):
 		super().__init__(*args, **kwargs)
-		print(f'CWD: {os.getcwd()}')
+		# print(f'CWD: {os.getcwd()}')
 
 		self.setupUi(self)
 		# style widgets
@@ -31,7 +31,7 @@ class LoginForm(Ui_Form, qtw.QWidget):
 		self.btnSubmit.clicked.connect( self.onBtnSubmitClick )
 		self.btnCancel.clicked.connect(self.close)
 
-		self.db = DB('test', 'test1234','test')
+		self.db = DB()
 
 	@qtc.pyqtSlot(bool)
 	def onBtnSubmitClick(self):
